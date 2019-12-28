@@ -1,4 +1,9 @@
-
+preface,<br/>
+calling Date() vs new Date() 
+```
+var today = Date();        => String "Sat Dec 28 2019 06:10:46 GMT-0500 (Eastern Standard Time)"
+var today = new Date();    => Date object that when printed is "2019-12-28T11:08:30.440Z"
+```
 
 today,<br/>
 day formatting
